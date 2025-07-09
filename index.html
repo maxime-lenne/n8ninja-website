@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="N8Ninja - L'application mobile pour gérer vos workflows n8n depuis votre iPhone. Automatisez, surveillez et déclenchez vos processus n8n en toute simplicité.">
+  <meta name="keywords" content="n8n, automation, workflow, iPhone, iOS, mobile app, N8Ninja">
+  <meta name="author" content="N8Ninja">
+  <meta property="og:title" content="N8Ninja - Automatisez vos workflows n8n">
+  <meta property="og:description" content="Gérez vos workflows n8n depuis votre iPhone avec N8Ninja">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/logos/dark.svg">
+  <title>N8Ninja - Automatisez vos workflows n8n</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <img src="images/logos/dark.svg" alt="N8Ninja">
+        <span class="nav-title">N8Ninja</span>
+      </div>
+      <div class="nav-menu">
+        <a href="#features" class="nav-link">Fonctionnalités</a>
+        <a href="#screenshots" class="nav-link">Aperçu</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#download" class="nav-cta">Télécharger</a>
+      </div>
+      <div class="nav-toggle" id="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span>🚀 Nouveau</span>
+          <span>Application iOS</span>
+        </div>
+        <h2 class="hero-title">
+          Automatisez vos workflows
+          <span class="gradient-text">n8n</span>
+          depuis votre iPhone
+        </h2>
+        <p class="hero-description">
+          N8Ninja vous permet de gérer, surveiller et déclencher vos automatisations n8n 
+          directement depuis votre iPhone. Interface intuitive, notifications en temps réel, 
+          et contrôle total de vos workflows.
+        </p>
+        <div class="hero-actions">
+          <a href="#download" class="app-store-badge">
+            <img src="images/Download_on_the_App_Store_Badge_FR_RGB_wht_100217.svg" alt="Télécharger sur l'App Store" />
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">1000+</span>
+            <span class="stat-label">Utilisateurs actifs</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">4.8★</span>
+            <span class="stat-label">Note App Store</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">24/7</span>
+            <span class="stat-label">Support</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="phone-mockup">
+          <img src="images/mockups/Device.png" alt="Aperçu N8Ninja sur iPhone 16" class="phone-screen">
+        </div>
+        <div class="floating-elements">
+          <div class="floating-card card-1">
+            <div class="card-icon">⚡</div>
+            <div class="card-content">
+              <h4>Workflow actif</h4>
+              <p>Email automation</p>
+            </div>
+          </div>
+          <div class="floating-card card-2">
+            <div class="card-icon">📊</div>
+            <div class="card-content">
+              <h4>Exécution réussie</h4>
+              <p>2.3s</p>
+            </div>
+          </div>
+          <div class="floating-card card-3">
+            <div class="card-icon">🔔</div>
+            <div class="card-content">
+              <h4>Notification</h4>
+              <p>Nouveau trigger</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <h2>Fonctionnalités principales</h2>
+        <p>Découvrez tout ce que N8Ninja peut faire pour simplifier votre gestion d'automatisations</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 1H5C3.89 1 3 1.89 3 3V21C3 22.11 3.89 23 5 23H19C20.11 23 21 22.11 21 21V9M19 9H14V4H5V21H19V9Z"/>
+            </svg>
+          </div>
+          <h3>Gestion multi-serveurs</h3>
+          <p>Connectez-vous à plusieurs instances n8n (cloud et auto-hébergées) et basculez facilement entre elles.</p>
+          <ul class="feature-list">
+            <li>Support n8n Cloud</li>
+            <li>Instances auto-hébergées</li>
+            <li>Gestion sécurisée des tokens</li>
+          </ul>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M13 2.05V4.05C17.39 4.59 20.5 8.58 19.96 12.97C19.5 16.61 16.64 19.5 13 19.93V21.93C18.5 21.38 22.5 16.5 21.95 11C21.5 6.25 17.73 2.5 13 2.03V2.05M5.67 19.74C7.18 21 9.04 21.79 11 22V20C9.58 19.82 8.23 19.25 7.1 18.37L5.67 19.74M7.1 5.74C8.22 4.84 9.57 4.26 11 4.06V2.06C9.05 2.25 7.19 3.04 5.67 4.26L7.1 5.74M5.69 7.1L4.26 5.67C3.05 7.19 2.26 9.04 2.05 11H4.05C4.24 9.58 4.8 8.23 5.69 7.1M4.06 13H2.06C2.26 14.96 3.05 16.81 4.26 18.33L5.69 16.9C4.81 15.77 4.24 14.42 4.06 13M10 16.5L16 14L10 11.5V16.5Z"/>
+            </svg>
+          </div>
+          <h3>Contrôle des workflows</h3>
+          <p>Activez, désactivez et surveillez vos workflows en temps réel avec une interface intuitive.</p>
+          <ul class="feature-list">
+            <li>Activation/désactivation en un tap</li>
+            <li>Filtrage par statut et tags</li>
+            <li>Statistiques détaillées</li>
+          </ul>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 1H5C3.89 1 3 1.89 3 3V21C3 22.11 3.89 23 5 23H19C20.11 23 21 22.11 21 21V9M19 9H14V4H5V21H19V9Z"/>
+            </svg>
+          </div>
+          <h3>Suivi des exécutions</h3>
+          <p>Visualisez l'état et les performances de vos workflows avec des graphiques et statistiques avancés.</p>
+          <ul class="feature-list">
+            <li>Statuts en temps réel</li>
+            <li>Graphiques de performance</li>
+            <li>Historique détaillé</li>
+          </ul>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 1H5C3.89 1 3 1.89 3 3V21C3 22.11 3.89 23 5 23H19C20.11 23 21 22.11 21 21V9M19 9H14V4H5V21H19V9Z"/>
+            </svg>
+          </div>
+          <h3>Déclencheurs intelligents</h3>
+          <p>Déclenchez manuellement vos webhooks et gérez vos planifications directement depuis l'app.</p>
+          <ul class="feature-list">
+            <li>Déclenchement de webhooks</li>
+            <li>Gestion des planifications</li>
+            <li>Partage d'URLs</li>
+          </ul>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 1H5C3.89 1 3 1.89 3 3V21C3 22.11 3.89 23 5 23H19C20.11 23 21 22.11 21 21V9M19 9H14V4H5V21H19V9Z"/>
+            </svg>
+          </div>
+          <h3>Intégration Shortcuts</h3>
+          <p>Intégrez vos automatisations dans Siri et les Raccourcis iOS pour un contrôle vocal et automatisé.</p>
+          <ul class="feature-list">
+            <li>Support Siri</li>
+            <li>Raccourcis iOS</li>
+            <li>Automatisation vocale</li>
+          </ul>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 1H5C3.89 1 3 1.89 3 3V21C3 22.11 3.89 23 5 23H19C20.11 23 21 22.11 21 21V9M19 9H14V4H5V21H19V9Z"/>
+            </svg>
+          </div>
+          <h3>Interface personnalisable</h3>
+          <p>Adaptez l'app à vos préférences avec le thème sombre/clair et le support multi-langues.</p>
+          <ul class="feature-list">
+            <li>Thème sombre/clair</li>
+            <li>Multi-langues</li>
+            <li>Préférences avancées</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screenshots Section -->
+  <section class="screenshots" id="screenshots">
+    <div class="container">
+      <div class="section-header">
+        <h2>Aperçu de l'application</h2>
+        <p>Découvrez l'interface intuitive et moderne de N8Ninja</p>
+      </div>
+      <div class="screenshots-grid">
+        <div class="screenshot-item">
+          <img src="images/screenshots/IMG_0839.PNG" alt="Écran d'accueil N8Ninja">
+          <div class="screenshot-overlay">
+            <h4>Écran d'accueil</h4>
+            <p>Vue d'ensemble de vos workflows</p>
+          </div>
+        </div>
+        <div class="screenshot-item">
+          <img src="images/screenshots/IMG_0840.PNG" alt="Liste des workflows">
+          <div class="screenshot-overlay">
+            <h4>Liste des workflows</h4>
+            <p>Gestion et filtrage avancé</p>
+          </div>
+        </div>
+        <div class="screenshot-item">
+          <img src="images/screenshots/IMG_0841.PNG" alt="Détails d'un workflow">
+          <div class="screenshot-overlay">
+            <h4>Détails du workflow</h4>
+            <p>Contrôle et configuration</p>
+          </div>
+        </div>
+        <div class="screenshot-item">
+          <img src="images/screenshots/IMG_0842.PNG" alt="Suivi des exécutions">
+          <div class="screenshot-overlay">
+            <h4>Suivi des exécutions</h4>
+            <p>Monitoring en temps réel</p>
+          </div>
+        </div>
+        <div class="screenshot-item">
+          <img src="images/screenshots/IMG_0843.PNG" alt="Statistiques et graphiques">
+          <div class="screenshot-overlay">
+            <h4>Statistiques</h4>
+            <p>Analyses et performances</p>
+          </div>
+        </div>
+        <div class="screenshot-item">
+          <img src="images/screenshots/IMG_0844.PNG" alt="Gestion des serveurs">
+          <div class="screenshot-overlay">
+            <h4>Gestion des serveurs</h4>
+            <p>Configuration multi-instances</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <h2>Questions fréquentes</h2>
+        <p>Tout ce que vous devez savoir sur N8Ninja</p>
+      </div>
+      <div class="faq-grid">
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>Comment connecter mon instance n8n ?</h4>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z"/>
+            </svg>
+          </div>
+          <div class="faq-answer">
+            <p>Entrez simplement votre URL et token API dans les paramètres de l'app. L'app supporte les instances n8n Cloud et auto-hébergées.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>Est-ce compatible avec n8n Cloud ?</h4>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z"/>
+            </svg>
+          </div>
+          <div class="faq-answer">
+            <p>Oui, l'app fonctionne parfaitement avec n8n Cloud et toutes les instances auto-hébergées. Vous pouvez gérer plusieurs serveurs simultanément.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>Puis-je déclencher des workflows depuis l'app ?</h4>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z"/>
+            </svg>
+          </div>
+          <div class="faq-answer">
+            <p>Oui ! Vous pouvez déclencher des webhooks, partager des URLs, et même intégrer vos automatisations avec Siri et les Raccourcis iOS.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>L'app est-elle sécurisée ?</h4>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z"/>
+            </svg>
+          </div>
+          <div class="faq-answer">
+            <p>Absolument. Vos tokens API sont stockés de manière sécurisée sur votre appareil et ne sont jamais transmis à des serveurs tiers.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>L'app supporte-t-elle plusieurs langues ?</h4>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z"/>
+            </svg>
+          </div>
+          <div class="faq-answer">
+            <p>Oui, l'app supporte plusieurs langues et s'adapte automatiquement aux préférences de votre système.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>L'app est-elle open source ?</h4>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z"/>
+            </svg>
+          </div>
+          <div class="faq-answer">
+            <p>Non, mais elle est conçue pour respecter la philosophie ouverte de n8n et s'intègre parfaitement dans l'écosystème n8n.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta" id="download">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Prêt à simplifier votre automatisation ?</h2>
+        <p>Téléchargez N8Ninja maintenant et prenez le contrôle de vos workflows n8n depuis votre iPhone.</p>
+        <a href="#" class="app-store-badge">
+          <img src="images/Download_on_the_App_Store_Badge_FR_RGB_wht_100217.svg" alt="Télécharger sur l'App Store" />
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="images/logos/dark.svg" alt="N8Ninja" class="footer-logo">
+          <p>Simplifiez votre automatisation n8n depuis votre iPhone</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-section">
+            <h4>Produit</h4>
+            <a href="#features">Fonctionnalités</a>
+            <a href="#screenshots">Aperçu</a>
+            <a href="#faq">FAQ</a>
+          </div>
+          <div class="footer-section">
+            <h4>Support</h4>
+            <a href="mailto:support@n8n-ninja.app">Support</a>
+            <!--a href="/feedback">Feedback</a-->
+          </div>
+          <div class="footer-section">
+            <h4>Légal</h4>
+            <a href="/privacy.html">Confidentialité</a>
+            <!--a href="/terms">Conditions</a-->
+            <!--a href="/cookies">Cookies</a-->
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 N8Ninja. Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html> 
